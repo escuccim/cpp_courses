@@ -151,7 +151,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BankAccount.cpp" />
+    <ClCompile Include="Body.cpp" />
+    <ClCompile Include="Course.cpp" />
+    <ClCompile Include="Freezable.cpp" />
+    <ClCompile Include="Handle.cpp" />
+    <ClCompile Include="Loggable.cpp" />
+    <ClCompile Include="Person.cpp" />
     <ClCompile Include="PointersLab.cpp" />
+    <ClCompile Include="SavingsAccount.cpp" />
+    <ClCompile Include="Student.cpp" />
+    <ClCompile Include="Teacher.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BankAccount.h" />
+    <ClInclude Include="Body.h" />
+    <ClInclude Include="Course.h" />
+    <ClInclude Include="Freezable.h" />
+    <ClInclude Include="Handle.h" />
+    <ClInclude Include="Loggable.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="SavingsAccount.h" />
+    <ClInclude Include="Student.h" />
+    <ClInclude Include="Teacher.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

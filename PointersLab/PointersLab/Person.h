@@ -4,14 +4,16 @@
 
 class Person {
 private:
-	std::string firstName;
-	std::string lastName;
-	int age;
 
 protected:
 	std::string phone;
 
 public:
+	int age;
+	std::string firstName;
+	std::string lastName;
+
+
 	Person();
 	Person(std::string fName, std::string lName);
 	Person(std::string fName, std::string lName, int age);
@@ -31,7 +33,6 @@ public:
 	void SetAge(int age);
 	int GetAge();
 
-	virtual void OutputIdentity() = 0;
 	virtual void OutputAge();
 
 	friend void SomeExternalFunction(Person &person);

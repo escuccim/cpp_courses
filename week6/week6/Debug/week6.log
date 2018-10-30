@@ -1,0 +1,4 @@
+﻿  week6.cpp
+c:\users\eric\documents\courses\c++\week6\week6\week6.cpp(30): warning C4018: '<': signed/unsigned mismatch
+c:\users\eric\documents\courses\c++\week6\week6\week6.cpp(35): warning C4018: '<': signed/unsigned mismatch
+  week6.vcxproj -> C:\Users\eric\Documents\Courses\C++\week6\Debug\week6.exe

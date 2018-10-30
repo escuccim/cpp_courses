@@ -1,0 +1,3 @@
+﻿  Advanced.cpp
+c:\users\eric\documents\courses\c++\advanced\advanced\advanced.cpp(43): warning C4715: 'f': not all control paths return a value
+  Advanced.vcxproj -> C:\Users\eric\Documents\Courses\C++\Advanced\Debug\Advanced.exe
